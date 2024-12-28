@@ -1,0 +1,150 @@
+body
+{
+    background-color: rgb(202, 134, 181);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.all{
+    background-color: rgb(211, 179, 201);
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+nav
+{
+    display: flex;
+}
+nav .nbar
+{
+   
+    display: flex;
+  
+}
+nav .nbar .rr{
+   display: flex;
+   padding: 1% 13% ;
+  
+}
+.nbar  img{
+   
+    width: 100px;
+    padding: 1% 500px 2% 1%;
+   
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+nav .nbar .rr button
+{
+    padding: 1% 5% ;
+   margin:5% ; 
+   gap:10px; 
+   background-color: rgb(178, 244, 244);
+}
+.nbar .rr button:hover
+{
+    background-color: rgb(106, 243, 243);
+}
+/* main page */
+.title
+{
+   padding: 40px 20px 1px 0px; 
+   margin: 1% 10%;
+   font-size: larger;
+}
+.banners img
+{
+    height: 300px;
+    width: 300px;
+    border: 2px solid rgb(142, 141, 141); 
+    margin: 0% 2%;
+    border-radius: 1.5%;
+}
+.banners
+{
+    
+   display: flex;
+  
+   overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 0% 9%;
+    
+}
+.banners::-webkit-scrollbar{
+    display: none;
+   
+}
+h2{
+    margin: 1% 10%;
+}
+.cards 
+{
+    display: flex;
+    margin: 1% 10%;
+text-align: center;
+
+}
+.cards .card img{
+   width:250px;
+}
+.cards .card
+{
+    border: 2px solid black;
+    margin: 2%;
+    transition: transform 420ms;
+}
+
+.cards .card:hover
+{
+    transform: scale(1.1);
+}
+
+
+
+
+/* footer */
+footer{
+    padding: 50px 4% 10px ;
+    color: #2c2929;
+    background-color: #e1dfdf;
+}
+footer h1{
+    font-size: 1.2rem;
+    font-weight: 500;
+    
+    margin: 0 0 50px 0;
+    color: #000000;
+}
+footer .row{
+    display: flex;
+    align-items: start;
+    padding: 10px 0px;
+}
+footer .row .col
+{
+    margin: 10px 50px;
+}
+footer .row .col a
+{
+    text-decoration: none;
+    color: #1c1c1c;
+    font-size: 0.8rem;
+    padding: 8px;
+    display: block;
+}
+footer .fbtn button{
+    margin: 2px 30px;
+    border: 2px solid rgb(167, 166, 166);
+    border-radius: 5px;
+    padding: 5px 0;
+    width: 100px;
+    height: 40px;
+    background-color: #ffffff;
+}
+footer button i{
+    border: none;
+}
+footer button select{
+    border: none;
+}
